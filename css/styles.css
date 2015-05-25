@@ -129,7 +129,7 @@ a:hover.pure-button-second {
 }
 
 .splash-container {
-    background: url('../img/berries.jpg') no-repeat fixed center center;
+    background: url('../img/berries.jpg') no-repeat top center fixed;
     background-size: cover;
     z-index: 0;
     overflow: hidden;
