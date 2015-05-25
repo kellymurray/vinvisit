@@ -129,8 +129,9 @@ a:hover.pure-button-second {
 }
 
 .splash-container {
-    background: url('../img/berries.jpg') no-repeat top center fixed;
+    background: url('../img/berries.jpg') no-repeat center center fixed;
     background-size: cover;
+    background-attachment: scroll;
     z-index: 0;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
