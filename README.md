@@ -1,3 +1,3 @@
 # vinvisit
 
-Trying out purecss.io with a fake app called VinVisit.
+Trying out purecss.io with an app called VinVisit. WIP.
