@@ -48,7 +48,7 @@ html, button, input, select, textarea,
 
 .pure-button {
     background-color: #EEEEEE;
-    color: #EEEEEE;
+    color: #422e37;
     padding: 0.5em 2em;
     border-radius: 5px;
     font-family: 'Lato', sans-serif;
@@ -88,7 +88,6 @@ a:hover.pure-button-second {
 
 .home-menu {
     padding: 0.5em;
-    text-align: center;
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
 }
 .home-menu {
@@ -167,6 +166,7 @@ a:hover.pure-button-second {
 
 .content {
   margin: auto;
+  padding: 1em;
 }
 
 .content-wrapper {
@@ -185,7 +185,7 @@ a:hover.pure-button-second {
   font-size: 1.618em;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  margin: .5em 0 .5em 0;
+  margin: 1em 0 .5em 0;
 }
 
 .content-subhead {
@@ -212,6 +212,7 @@ a:hover.pure-button-second {
 
 .ribbon {
   width: 100%;
+  padding: 1em;
   min-height: 12%;
   background: #422e37;
   z-index: 1;
@@ -219,7 +220,6 @@ a:hover.pure-button-second {
 
 .ribbon-head {
   color: #EEEEEE;
-  margin: 0.5em 0 0.5em 0;
 }
 
 .ribbon-text {
@@ -241,9 +241,9 @@ a:hover.pure-button-second {
 .main-form-text {
   width: 80%;
   margin: auto;
-  line-height: 2em;
+  line-height: 1.618em;
   color: #422e37;
-  font-size: 1.618em;
+  font-size: 2.618em;
   text-align: center;
 }
 
@@ -255,25 +255,52 @@ span {
 
 span .icon-grape {
   font-size: 1em;
-
-}
-/*.pure-form select option {
-    margin: auto;
-    font-weight: bold;
-    font-size: 100%;
-    color: #422e37;
-    border: 2px solid #ddd;
 }
 
-.pure-form input {
-    border: 2px solid #ddd;
-    box-shadow: none;
-    font-size: 100%;
-    margin-bottom: 1em;
-    color: #422e37;
-}*/
+select.dropdown {
+       font-size: 1em;
+       color: #867958;
+       border: 2px #422e37;
+       width: auto;
+       -webkit-appearance: none;
+       -moz-appearance: none;
+       background: none;
+       text-indent: 1px;
+       box-shadow: none;
+       padding: 0 0 0 2px;
+       border-bottom: 1px dashed #422e37;
+     }
 
+select.dropdown:focus {
+       outline: 2px #422e37;
+       border-bottom: 1px dashed #422e37;
+     }
 
+option {
+  background: #422e37;
+  color: #EEEEEE;
+}
+
+.input-form {
+  margin: auto;
+  width: 180px;
+  padding: 0 0 0 .25em;
+  color: #422e37;
+  border: 0;
+  border-bottom: 1px dashed #422e37;
+  background: #EEEEEE;
+}
+
+.input-form:focus {
+  outline: 2px #422e37;
+  color: #422e37;
+}
+
+::-webkit-input-placeholder {
+ color: #867958;
+ font-size: 1em;
+ text-align: center;
+}
 
 /* This is the class used for the footer */
 .footer {
