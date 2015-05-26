@@ -44,6 +44,7 @@ html, button, input, select, textarea,
 
 .is-center {
     text-align: center;
+    padding: .5em;
 }
 
 .pure-button {
@@ -128,7 +129,7 @@ a:hover.pure-button-primary {
 
 .splash {
     /* absolute center .splash within .splash-container */
-    width: 80%;
+    width: 100%;
     height: 50%;
     margin: auto;
     position: absolute;
@@ -169,12 +170,12 @@ a:hover.pure-button-primary {
   font-size: 1.618em;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  margin: 1em 0 .5em 0;
+  margin: .5em;
+  padding: .5em;
 }
 
 .content-subhead {
-  margin: auto;
-  padding: auto;
+  margin: 0 0 0 0;
   font-size: 1em;
   text-align: center;
 }
@@ -183,16 +184,16 @@ a:hover.pure-button-primary {
 .main-content-text {
   width: 80%;
   margin: auto;
-  padding: auto;
+  padding: 0 0 .5em 0;
   line-height: 1.5em;
   color: #422e37;
   font-size: 1em;
 }
 
-.centered {
+/*.centered {
   text-align: center;
   margin: auto;
-}
+}*/
 
 .ribbon {
   width: 100%;
@@ -224,7 +225,7 @@ a:hover.pure-button-primary {
 }
 
 .main-form-text {
-  width: 80%;
+  width: 100%;
   margin: auto;
   line-height: 1.618em;
   color: #422e37;
