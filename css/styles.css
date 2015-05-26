@@ -70,22 +70,6 @@ a:hover.pure-button-primary {
   font-family: 'Lato', sans-serif;
 }
 
-a.pure-button-second {
-    background: #422e37;
-    color: #EEEEEE;
-    border-radius: 5px;
-    font-size: 1em;
-    font-family: 'Lato', sans-serif;
-    text-transform: uppercase;
-}
-
-a:hover.pure-button-second {
-  background: #EEEEEE;
-  color: #422e37;
-  border: 1px #422e37 solid;
-  font-family: 'Lato', sans-serif;
-}
-
 .home-menu {
     padding: 0.5em;
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
@@ -227,10 +211,11 @@ a:hover.pure-button-second {
 }
 
 .form-wrapper {
-  width: 100%;
   background: #EEEEEE;
   z-index: 1;
   margin: auto;
+  width: 100%;
+  height: 50%;
 }
 
 .form-head {
@@ -300,6 +285,30 @@ option {
  color: #867958;
  font-size: 1em;
  text-align: center;
+}
+
+.pure-button-form {
+    background: #422e37;
+    color: #EEEEEE;
+    border-radius: 5px;
+    font-size: 1.618em;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.button-container {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  margin-left: 39%;
+}
+
+a:hover.pure-button-form {
+  background: #EEEEEE;
+  color: #422e37;
+  border: 1px #422e37 solid;
+  font-family: 'Lato', sans-serif;
 }
 
 /* This is the class used for the footer */
